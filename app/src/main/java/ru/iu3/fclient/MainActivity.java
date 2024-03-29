@@ -64,18 +64,17 @@ public class MainActivity extends AppCompatActivity implements TransactionEvents
                         }
                     }
                 });
-
-        testHttpClient();
     }
 
     public void onButtonClick(View v) {
-        Intent it = new Intent(this, PinpadActivity.class);
+        /*Intent it = new Intent(this, PinpadActivity.class);
 //        startActivity(it);
         activityResultLauncher.launch(it);
 
         byte[] trd = stringToHex("9F0206000000000100");
         boolean ok = transaction(trd);
-        Toast.makeText(MainActivity.this, ok ? "ok" : "failed", Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, ok ? "ok" : "failed", Toast.LENGTH_SHORT).show();*/
+        testHttpClient();
     }
 
     @Override
